@@ -1,2 +1,5 @@
 Berikut link github dari penugasan pratikum section 3 halaman 75
 https://github.com/RuslanIk06/Tugas-FlutterB-Section3-GIT
+
+Berikut link pilgan section 3
+https://alta.id/courses/mastering-flutter-from-zero-to-hero/42840/
