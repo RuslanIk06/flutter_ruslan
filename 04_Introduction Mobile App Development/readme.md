@@ -62,3 +62,33 @@ Di section ini saya belajar tentang Introduction Mobile App Development yang mel
     Berbeda dengan compiler, Interpreter membaca langsung perintah - perintah dalam bahasa pemrograman dan langsung menjalankan peritah tersebut dapat melakukan compile kedalam bahasa mesin. proses Interpreter sendiri relative lebih cepat namun program yang dijalankan lebih lambat karena harus membaca keseluruhan kode ketika menjalankan program tersebut
 
   ***
+
+##Task
+###Task 01
+
+- 5 Bahasa pemrograman yang digunakan untuk membuat aplikasi mobile
+  - Java
+    Java adalah sebuah bahasa pemrograman yang digunakan untuk membuat aplikasi android native atau bahasa pemrograman yang khusus untuk membuat aplikasi android.
+  - Kotlin
+    Sama seperti Java, kotlin juga merupakan bahasa pemrograman yang khusus digunakan untuk pengembangan aplikasi android.
+  - Swift
+    Sama seperti kotlin dan Java yang merupakan bahasa pemrograman untuk peengembangan aplikasi mobile native namun Swift khusus untuk platform ios sehingga Shift adalah bahasa pemrograman native dari IOS.
+  - Objective-C
+    Sama seperti Swift, Objective-C juga merupakan bahasa pemrograman native dari IOS atau bahasa pemrograman khusus digunakan untuk pengembangan IOS Apps.
+  - Dart
+    Berbeda dengan keempat bahasa pemrograman di atas yang digunakan untuk membuat native apps, dart adalah bahasa pemrograman yang digunakan untuk cross platform atau bahasa pemrograman yang dapat digunakan untuk membuat aplikasi IOS dan Android dengan satu code base dengan menggunakan framework dari dart yaitu flutter
+
+###Task 02
+
+- Aplikasi yang dapat berjalan di IOS dan Android
+
+  - 3 Aplikasi yang dapat berjalan di Android namun tidak dapat berjalan di IOS
+
+    - Playstore
+    - Firefox
+    - Android launcher
+
+  - 3 Aplikasi yang dapat berjalan di IOS namun tidak dapat berjalan di Android
+    - App Store
+    - Severed
+    - Affinity Photo
