@@ -1,0 +1,16 @@
+import 'dart:io';
+
+void main(List<String> args) {
+  stdout.write("Masukan Nilai : ");
+  int nilai = int.parse(stdin.readLineSync()!);
+  print("==========================");
+
+  print("Niai dari !$nilai");
+
+  int hasil = 1;
+  for (int i = 1; i <= nilai; i++) {
+    hasil *= i;
+  }
+
+  print(hasil);
+}
