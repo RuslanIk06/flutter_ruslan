@@ -1,6 +1,10 @@
 import 'dart:io';
 
 void main(List<String> args) {
+  nilaiFaktorial();
+}
+
+void nilaiFaktorial() {
   stdout.write("Masukan Nilai : ");
   int nilai = int.parse(stdin.readLineSync()!);
   print("==========================");
@@ -12,5 +16,5 @@ void main(List<String> args) {
     hasil *= i;
   }
 
-  print(hasil);
+  print("Adalah $hasil");
 }
