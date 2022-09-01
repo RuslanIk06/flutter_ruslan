@@ -6,7 +6,7 @@ void main(List<String> args) {
 
 void nilaiFaktorial() {
   stdout.write("Masukan Nilai : ");
-  int nilai = int.parse(stdin.readLineSync()!);
+  Bigint nilai = int.parse(stdin.readLineSync()!);
   print("==========================");
 
   print("Niai dari !$nilai");

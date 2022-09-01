@@ -65,18 +65,24 @@ Di section ini saya belajar tentang Branching - Looping - Function yang meliputi
 ##Task
 ###Task 01
 
+Berikut kode program secara keseluruhan
+![Code](../screenshots/kode.png)
+
 Return Nilai
 
 Berikut program mnentukan nilai akhir
-![Task1](../screenshots/task1.png)
+![Code](../screenshots/nilai%20akhir.png)
 
-Pada program di atas saya membuat sebuah fungsi nilai akhir yang bertipe data int yang dimana fungsi tersebut mengembalikan nilai dari inputan dari parameter fungsi tersebut. dan pada fungsi main saya membuat sebuah inputan nilai yang bertipe data int yang dimana nilai itu nantinya akan menjadi nilai parameter dari fungsi nilai akihir. di program tersebut juga saya membuat 3 variabel konstanta sebagai nilai akhirnya dan selanjutnya terdapat if statement yang dimana jika nilai yang di inputkan lebih besar dari 70 dan lebih kecil dari sama dengan 100 maka nilai akhir nya adalah A yang diambil dari varibel konstanta nilaiA, jika kondisi pertama tidak terpenuhi maka lanjut ke kondisi selanjutnya dimana jika nilai yang di inputkan lebih besar dari 40 dan lebih kecil dari sama dengan 70 maka nilai akhir adalah B yang diambil dari varibel konstanta nilaiB, jika kondisi kedua masih tidak terpenuhi maka selanjutnya adalah kondisi dimana jika nilai yang di inputkan lebih besar dari 0 dan lebih kecil dari sama dengan 40 maka nilai akhir adalah C yang diambil dari varibel konstanta nilaiC dan selain itu ada kondisi else yang akan menampilkan teks kosong
+Pada program di atas saya membuat sebuah fungsi yang digunakan untuk mengetahui nilai akhir yang dimana fungsi tersebut bertipe void. saya membuat sebuah variabel nilai yang bertipe data int yang nilai nya akan di ambil dari inputan console dan sebuah variabel nilai akhir yang digunakan untuk menampung nilai akhir yang bertipe data String. selanjutnya program tersebut akan melakukan pengecekan yang dimana jika nilai yang di inputkan diatas 70 dan kurang dari sama dengan 100 maka akan menampilkan nilai A yang disimpan kedalam variabel nilai akhir, selanjutnya jika kondisi pertama tidak terpenuhi maka akan dilanjutkan ke kodisi kedua yaitu jika ilai yang di inputkan diatas 40 dan kurang dari sama dengan 70 maka akan menampilkan nilai B yang disimpan kedalam variabel nilai akhir dan jika kondisi kedua juga tidak terpenuhi maka lanjut ke proses selanjutnya yaitu kondisi ketiga dimana jika nilai yang di inputkan diatas 0 dan kurang dari sama dengan 40 maka akan menampilkan nilai C yang disimpan kedalam variabel nilai akhir dan selain kondisi tersebut akan mencetak teks kosong. dan untuk menggunakan fungsi tersebut bisa di lakukan dengan langsung memanggil nama fungsi nya
+
+Berikut output dari program diatas
+![Output](../screenshots/output.png)
 
 ###Task 02
-
 Program Faktorial
+![Code](../screenshots/faktorial.png)
 
-Berikut program mnentukan nilai akhir
-![Task1](../screenshots/task2.png)
+Pada program di atas saya membuat sebuah fungsi untuk menghitung nilai faktorial dimana fungsi tersebut bertipe double atau akan mengembalikan nilai double dan pada fungsi main saya membuat sebuah variabel nilai yang akan didapatkan dari input iputan dari console dan sebuah variabel fak yang nilai nya di ambil dari fungsi faktorial yang dimana parameter dari fungsi faktorial diambil dari variabel nilai yang diinputkan. selain itu saya membuat sebuah variabel cek yang bertipe data bool yang digunakan untuk melakuan perulangan perintah untuk memasukan nilai.
 
-Pada program di atas saya membuat sebuah fungsi untuk mencari nilai faktorial dimana fungsi tersebut betipe void. dalam fungsi tersebut saya mengambil nilai dari inputan yang disimpan dalam variabel nilai yang bertipe data int. selanjutnya saya membuat sebuah variabel hasil dimana nilai awal nya saya inisialisasi dengan nilai 1, selanjutnya akan melakukan perulangan dimana nilai awal dari perulangan tersebut adalah 1 yang disimpan dalam variabel i dan kondisi dimana perulangan akan terus terjadi ketika nilai i kurang dari sama dengan nilai yang di inputkan dan di setiap perulangan tersebut variabel hasil akan dikalikan dengan variabel hasil itu sendiri dan variabel i. selanjutnya adalah mencetak nilai dari hasil akhir
+Berikut output dari program tersebut.
+![Code](../screenshots/hasil.png)
