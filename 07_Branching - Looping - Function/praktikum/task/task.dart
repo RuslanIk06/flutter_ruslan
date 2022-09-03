@@ -1,16 +1,16 @@
 import 'dart:io';
 
 void main(List<String> args) {
-  // bool cek = true;
+  bool cek = true;
 
-  // while (cek) {
-  //   stdout.write("Masukan nilai faktorial : ");
-  //   double nilai = double.parse(stdin.readLineSync()!);
-  //   double fak = faktorial(nilai);
-  //   print("Faktorial dari $nilai : $fak");
-  // }
+  while (cek) {
+    stdout.write("Masukan nilai faktorial : ");
+    double nilai = double.parse(stdin.readLineSync()!);
+    double fak = faktorial(nilai);
+    print("Faktorial dari $nilai : $fak");
+  }
 
-  nilaiAkhir();
+  // nilaiAkhir();
 }
 
 double faktorial(double n) {
@@ -33,7 +33,6 @@ void nilaiAkhir() {
   print("Nilai    : $nilai");
   if (nilai > 70 && nilai <= 100) {
     print("Nilai Akhir : ${nilaiAkhir = "A"}");
-    nilaiAkhir = "A";
   } else if (nilai > 40 && nilai <= 70) {
     print("Nilai Akhir : ${nilaiAkhir = "B"}");
   } else if (nilai > 0 && nilai <= 40) {

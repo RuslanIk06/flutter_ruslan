@@ -94,3 +94,20 @@ Di section ini saya belajar tentang Basic Dart Programming yang meliputi
 
 ##Task
 ###Task 01
+Penjumlahan List
+
+Berikut code program task 01
+![Task2](../screenshots/output%20task%201.png)
+
+pada kode program di atas saya membuat sebuah fungsi pengali dengan paramter List yang bertipe int dan sebuah parameter pengali dengan tipe int dan untuk fungsi tersebut saya buat secara asynchronous dengan tipe data Future dengan duration 3 second yang dimana hasil akhir dari hasil perkalian liat tersebut disimpan kedalam sebuah variabel list. dan ketika memanggil fungsi pengali pada fungsi main maka fungsi pengali akan diminta memasukan 2 parameter yakni parameter pertama list dan parameter kedua angka pengali. sebagai contoh saya memasukian list [1,2,3,4] dan bilangan pengali 2 sehingga hasilnya adalah sebuah list dengan nilai [2,4,6,8]
+
+###Task 02
+Membuat Collection List dan Map
+
+Berikut kode program dari task 02
+![Task2](../screenshots/code%20task%202.png)
+
+Secara umum program di atas saya membuat sebuah list ibu kota dan di dalam list ibu kota menampung nilai list juga yang dimana nantinya value dari dari list ibu kota tersebut akan di jadikan sebuah map. saya membuat sebuah menu untuk melakuakan pengecekan value dari list dan map yang dimana menu tersebut saya lakukan perulangan dengan kondisi variabel cek bernilai true maka akan terus belakukan perulangan menu. jika inputan nya 1 makan akan melakukan pengecekan value dari list yang dibuat sebelumnya dan jika inputanya 2 maka akan melakukan pengecekan nilai value dan key dari map yang di buat bedasarkan value dari list dan jika inputan nya 3 maka akan keluar dari program atau variabel cek nya bernilai false dan selain dari inputan 1 , 2, dan 3 maka akan memunculkan pesan "Masukan Angka Dengan Benar".
+
+Berikut output dari program diatas.
+![Task2](../screenshots/hasil%20task%202.png)
