@@ -111,3 +111,37 @@ Secara umum program di atas saya membuat sebuah list ibu kota dan di dalam list 
 
 Berikut output dari program diatas.
 ![Task2](../screenshots/hasil%20task%202.png)
+
+##Latihan
+###Latihan 01
+Berikut kode program dari latihan 01
+![latihan01](../screenshots/latihan1.png);
+
+Pada program diaatas saya membuat sebuah program yang dimana nantinya akan terdapat 5 buah inputan yang dimana inputan tersebut nantinya akan dimasukan kedalam sebuah list dan hasil dari list tersebut akan di jumlah lalu dihitung rata - ratanya. pertama tama saya membuat variabel counter i dan j yang bernilai 0 dan rata2 untuk menampung nilai rata2, var listTotal untuk menampung nilai inputan yang disimpan kedalam list dan var hasil untuk menyimpan total dari list. untuk mengambil iputan saya mnggunakan sebuah perulangan while dengan kondisi var i yang bernilai 0 < 5 yang dimana akan melakukan looping sebanyak 5 kali untuk mengambil inputan yang dimana inputan tersebut akan disimpan kedalam sebuah variabel nilai dan nilai dari variabel nilai akan dimasukan kedalam list listTotal. untuk melakukan operasi penjumlahan saya juga menggunakan perulangan while yang dimana jika variabel j < panjang dari listTotal maka hasil akan ditambahkan dengan nilai setiap list yang ada. yang terakhir adalah mencetak jumlah dan rata rata dimana rata - rata diambil dari jumlah / panjang dari listTotal.
+
+Berikut output dari program diatas
+![latihan01](../screenshots/hasil_latihan1.png)
+
+---
+
+###Latihan 02
+Berikut kode program dari latihan 02
+![latihan01](../screenshots/latihan2.png);
+Pada program diatas saya membuat sebuah list dengan matriks 5x4 yang dimana setiap list nya sudah diberikan nilai. pertama tama saya membuat sebuah variabel d nilai yang berupakan inisialisasi dari list angka, variabel jumlah untuk menghitung jumlah dari setiap baris nya, variabel rata2 untuk menyimpan nilai rata rata dari setiap baris nya dan juga variabel min dan max untuk menyimpan nilai maksimum dan minum nya.
+
+setelah itu saya belakukan perulanngan dengan for in yang didalam perulangan tersebut terdapat operasi untuk melakukan penjumlahan dan mencari nilai rata - rata dengan rumus jumlah / panjang dari nilai dan lalu mencetak hasil penjumlahan dan rata rata selanjutnya adalah mencari nilai nilai minimum yang dimana variabel min saya isisialisasi nilai nya dengan jumlah karena nilai minimum tidak mungkin melebih dari jumlah. lalu melakukan perulangan dari setiap nilai dari matriks lalu melakukan pengecekan jika nilai dari setiap indeks lebh kecil dari nilai min yang diambil dari jumlah maka nilai min nya akan diganti dengan nilai indeks tersebut. begitupun dengan max saya inisialisasikan nilai nya dengan 0 dan jika nilai max yang bernilai 0 lebih kecil dari nilai setiap indeks nya maka akan digantikan dengan nilai dari indeks yang terbesar
+
+Berikut hasil dari program diatas
+![latihan02](../screenshots/hasil_latihan2.png);
+
+---
+
+###Latihan 03
+Berikut kode program dari latihan 03
+![latihan03](../screenshots/latihan3.dart.png);
+pada program diatas saya membuat 2 buah variabel nilai1 dan nilai2 untuk menyimpan parameter dengan ketentuan boleh bernilai null. yang dimana angka1 di set sebagai parameter indeks ke 0 dari list args dan angka2 di set sebagai parameter dari indeks ke 2 dari list args dan juga sebuah variabel operator yang di set sebagai parameter dari indeks ke 1 dari list args dan juga sebuah variabel hasil yang digunakan untuk menyimpan hasil operasi. pertawa program melakukan pengecekan dengan if yang dimana jika variabel angka1 dan angka2 tidak bernilai null maka akan dilakukan pengecekan ke step selanjutnya yakni mengecek apakah operator yang dimasukan sudah sesuai dengan ketentuan pada pengecekan ini saya menggunakan switch case, jika operator sudah sesuai (+, - ,\* ,/) maka program akan dijalankan sesuai operator yang dipilih dan jika operator yang dimasukan salah makan akan mencetak pesan "masukan operator dengan benar" dan selanjutnya jika hasil dari operasi tidak null atau sesuai makan akan mencetak hasil sesuai dengan operasi yang dijalankan. dan jika parameter angka dari variabel nilai1 dan nilai 2 tidak sesuai maka akan mencetak pesan "masukan angka dengaan benar".
+
+Berikut hasil dari program diatas
+![latihan03](../screenshots/hasil_latihan3.png);
+
+---
