@@ -64,6 +64,22 @@ Berikut code program dari mencari volume dari bangun ruang :
 Berikut code program dari KPK dan FPB :
 
 - class matematika
+  ![](../screenshots/classMatematika.png)
+  Pada class mmatematika saya membuat sebuah method hasil dengan print "hasil"
+- clss KPK
+  ![](../screenshots/classKpk.png)
+  pada class kpk saya membuat 2 buah variabel parameter yaitu x dan y dan sebuah parameter hasil yaitu nilaiKpk dan membuat sebuah method dengan parameter x dan y dan juga sebuah constructor. dan melalukan perulangan dimana nilai dari variabel kpk adalah nilai dari x dan melakukan perulangan jika nilai kpk modulus y tidak sama dengan 0 maka nilai kpk = nilai kpk + x dan mereturn nilai kpk. selanjutnya saya memanggil method hasil dengan mencetak kpk dari 20 dan 60
+- class FPB
+  ![](../screenshots/classFpb.png)
+  pada class fpb sama seperti class kpk saya juga embuat 2 buah variabel paramert yaitu x dan y dan melakuakan pengecekan jika x = o maka akan mereturn nilai y dan jika y = 0 maka akan mereturn nilain x dan jika selain dari itu akan mereturn fpb dengan parameter y dan x modulus y. selanjutnya saya memanggil method hasil dengan mencetak fpb dengan parameter 20 dan 60
+- class main
+  ![](../screenshots/classMainTask02.png)
+
+  pada class main saya membuat variabel cek dengan tipe bolean dan melakukan perulangan untuk sebuah menu yang dimana jika pengguna menginputkan angka 1 maka akan membuat sebuah objek operator dari class FPB dan mencetak method hasil dari objek operator. selanjutnya jika pengguna menginputkan angka 2 maka akan membuat sebuah objek operator dari class KPK dan mencetak method hasil dari objek operator dan jika pengguna menginputkan angka 3 maka akan keluar dari program dan inputan selain dari itu maka akan mencetak "masukan data dengan benar".
+
+- hasil
+  berikut hasil dari program diatas
+  ![](../screenshots/hasilKpkFpb.png)
 
 ##Latihan
 ###Latihan 01 (Hewan)
