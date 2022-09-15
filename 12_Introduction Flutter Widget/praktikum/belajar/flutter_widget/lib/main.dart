@@ -2,24 +2,6 @@ import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
 
-// class MyApp extends StatelessWidget {
-//   const MyApp({Key? key}) : super(key: key);
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return MaterialApp(
-//       home: Scaffold(
-//         appBar: AppBar(
-//           title: Text("Flutter Widget"),
-//         ),
-//         body: Center(
-//           child: Text("Selamat Datang"),
-//         ),
-//       ),
-//     );
-//   }
-// }
-
 class MyApp extends StatefulWidget {
   const MyApp({Key? key}) : super(key: key);
 
@@ -28,11 +10,34 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  int _coun = 0;
+
+  void _increment() {
+    _coun++;
+  }
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        body: Text("Selamat Datang"),
+      home: SafeArea(
+        child: Scaffold(
+          appBar: AppBar(
+            title: Text("Text"),
+          ),
+          floatingActionButton: FloatingActionButton(
+            onPressed: () {
+              setState(() {
+                _coun++;
+              });
+            },
+            child: Icon(Icons.add),
+          ),
+          body: Center(
+              child: Text(
+            _coun.toString(),
+            style: TextStyle(fontSize: 40),
+          )),
+        ),
       ),
     );
   }

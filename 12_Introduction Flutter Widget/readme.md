@@ -21,6 +21,7 @@ Di section ini saya belajar tentang Introduction Flutter Widget yang meliputi :
   flutter terdiri dari software developemt kit atau sdk yang merupakan alat - alat atau tools yang membantu dalam pengembangan aplikasi. di dalam sdk terdapat framework.
 
 - widget digunakan untuk membentuk antarmuka atau UI dari aplikasi yang akan dibuat yang merupakan class atau blueprint dan dapat terdiri dari beberapa widget lainnya. widget terdiri dari 2 jenis yaitu stateless dan statefull :
+
   - Stateless widget
     satteless widget adalah widget yang tidak bergantung pada perubahan data dan hanya fokus pada tamppilan atau ui dari aplikasi dan dibuat dengan extends class StatelessWidget
   - Statefull Widget
