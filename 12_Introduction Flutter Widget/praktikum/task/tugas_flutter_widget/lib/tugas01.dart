@@ -23,7 +23,7 @@ class _MyAppState extends State<MyApp> {
 
   void _getWaktu() {
     final String formattedDateTime =
-        DateFormat('ss:mm:ss').format(DateTime.now()).toString();
+        DateFormat('hh:mm:ss').format(DateTime.now()).toString();
     setState(() {
       _waktu = formattedDateTime;
       print(_waktu);

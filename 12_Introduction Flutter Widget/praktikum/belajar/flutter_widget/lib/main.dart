@@ -23,6 +23,7 @@ class _MyAppState extends State<MyApp> {
         child: Scaffold(
           appBar: AppBar(
             title: Text("Text"),
+            centerTitle: true,
           ),
           floatingActionButton: FloatingActionButton(
             onPressed: () {
