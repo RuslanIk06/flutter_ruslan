@@ -23,3 +23,37 @@ Di section ini saya belajar tentang Platform Widget yang meliputi :
 
 ##Task
 ###Task 01
+Berikut code program dari task 01 :
+
+- Custom Color
+  ![](../screenshots/customColor.png)
+
+  Pada file custom color saya mendekalrasikan semua warna yang akan saya gunakan
+
+- Custom Font
+  ![](../screenshots/fontStle.png)
+  Di file custom font saya medeklarasikan style font yang akan saya gunakan mulai dari warna, ukuran dll
+
+- Drawer
+  ![](../screenshots/drawer1.png)
+  ![](../screenshots/drawer2.png)
+  pada Drawer saya membuat sebuah stack dengan memasukan gamber lalu membuat menu dengan icon dan text dengan menggunakan widget colum dan row
+
+- Home Page
+  ![](../screenshots/home1.png)
+  ![](../screenshots/home2.png)
+  ![](../screenshots/home3.png)
+  ![](../screenshots/home4.png)
+  ![](../screenshots/home5.png)
+  ![](../screenshots/home6.png)
+
+  Pada home page saya membuat data statis dengan memasukan satu per satu data yang dibutuhkan
+
+- Main Page
+  ![](../screenshots/main.png)
+  Pada halaman main berisi app bar dengna sebuah drawer yang diambil dari file drawer dan juga icon button search dan pada body saya memanggil home page
+
+- Hasil
+  Berikut hasil dari program diatas
+  ![](../screenshots/hasil1.png)
+  ![](../screenshots/hasil2.png)
