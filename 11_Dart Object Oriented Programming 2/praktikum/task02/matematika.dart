@@ -1,5 +1,3 @@
 class Matematika {
-  hasil() {
-    print("Hasil");
-  }
+  void hasil() {}
 }

@@ -37,49 +37,69 @@ Di section ini saya belajar tentang Dart Object Oriented Programming 2 yang meli
 Berikut code program dari mencari volume dari bangun ruang :
 
 - class bangun ruang
-  ![](../screenshots/classBangunRuang.png)
+  ![](../screenshots/Upgrade%20Remedial/classBangunRuang.png)
 
-  Pada class bangun ruang saya membuat variabel panjang, lebar, tinggi dan sisi dan juga membuat sebuah construtor dari bangun ruang. dan sebuah method volume untuk mencari nilai volume dimana nilai volume adalah hasil kali dari paramter dimana parameter diambil dari inputan parameter 1, 2 dan 3.
+  Pada class bangun ruang saya membuat variabel panjang, lebar, tinggi dan juga membuat sebuah construtor dari bangun ruang. dan sebuah method kosong volume untuk mencari nilai volume.
+
+  ***
 
 - class Balok
-  ![](../screenshots/classBalok.png)
+  ![](../screenshots/Upgrade%20Remedial/classBalok.png)
 
-  Pada class balok saya membuat sebuah konstructor dari bangun ruang dengan parameter panjang, lebar, tinggi dan sisi dan memanggil methon volume yang ada di class bangun ruang dengan cara override yang dimana paramert nya adalah panjang, lebar dan tinggi
+  Pada class balok pertama tama saya melakukan import class bangun ruang kemudian saya membuat sebuah konstructor dari class balok dengan parameter panjang, lebar dan tinggi dan memanggil methon volume yang ada di class bangun ruang dengan cara override yang didalam nya saya buat sebuah variabel hasil dimana nilai dari variabel hasil adalah hasil kali antara panjang, lebar dan tinggi lalu mencetak variabel hasil tersebut.
+
+  ***
 
 - class Kubus
-  ![](../screenshots/classKubus.png)
+  ![](../screenshots/Upgrade%20Remedial/classKubus.png)
 
-  Pada class kubus saya juga membuat sebuah contructor dari Kubus dengan parameter panjang, lebar, tinggi dan sisi dan sebuah variabel sisi untuk menyimpan nilai sisi nya dan juga memanggil method volume dengan paraeter sisi1, sisi2 dan sisi3
+  Pada class kubus pertama tama saya melakukan import class bangun ruang kemudian saya membuat sebuah variabel sisi dengan tipe data double dan membuat sebuah konstructor dari class kubus dengan parameter panjang, lebar, tinggi ditambah sisi dari variabel sisi yang saya buat sebelumnya dan memanggil methon volume yang ada di class bangun ruang dengan cara override yang didalam nya saya buat sebuah variabel hasil dimana nilai dari variabel hasil adalah hasil kali sisi sebanyak 3x (sisi _ sisi _ sisi) lalu mencetak variabel hasil tersebut.
+
+  ***
 
 - class main
-  ![](../screenshots/classMain.png)
-  Pada class main saya membuat sebuah menu diaman jika pengguna menginputkan angka 1 maka akan memanggil class balok dengan objek bangun dengan parameter pertama panjang, paramter kedua lebar, parameter ketiga tinggi dan parameter keempat sisi. berhubung balok tidak memlikiki sisi maka nilai sisi nya di isi 0. kemudian mencetak nilai panjang, lebar dan tinggi dan juga mencetak volume dengan paramter panjang, lebar dan tinggi dan mencetak volume dari balok, jika yang di inputkan angka 2 maka akan memanggil class kubus dengan objek bangun dengan parameter pertama panjang, paramter kedua lebar, parameter ketiga tinggi dan parameter keempat sisi dan berhubung kubus hanya memiliki sisi maka parameter dari panjang, lebar dan tinggi di isi 0 dan jika yang di inputkan adalah angka 3 maka keluar dari perulangan dan selain dari angka 1, 2 dan 3 maka akan mencetak masukan data dengan benar.
+  ![](../screenshots/Upgrade%20Remedial/classMain1.png)
+  Pada class kubus pertama tama saya melakukan import class bangun ruang, balok dan kubus lalu membuat sebuah list dari bangun ruang dengan nama bangun ruang yang selanjutnya saya menambahkan list bangun ruang tersebut dengan cara add dari dimana nilai yang di add adalah memanggil class balok dengan parameter panjang = 10, lebar = 4 dan tinggi 6 selanjutnya menambahkan list bangun ruang dengan value class dari kubuh dengan parameter panjang, lbar dan tinggi = 0 karena kubus tidak memiliki panjang, lebar dan tinggi dan paramet sisi = 4. selanjutnya adalah melakukan perulangan nilai dari list bangun ruang yang dimana dicetak dengan mamanggil method volume.
+
+  ***
+
 - Berikut output dari program diatas
-  ![](../screenshots/hasil.png)
+  ![](../screenshots/Upgrade%20Remedial/hasilTask01.png)
 
 ##Task
-###Task 01
+###Task 02
 ####KPK dan FPB
 
 Berikut code program dari KPK dan FPB :
 
 - class matematika
-  ![](../screenshots/classMatematika.png)
-  Pada class mmatematika saya membuat sebuah method hasil dengan print "hasil"
-- clss KPK
-  ![](../screenshots/classKpk.png)
-  pada class kpk saya membuat 2 buah variabel parameter yaitu x dan y dan sebuah parameter hasil yaitu nilaiKpk dan membuat sebuah method dengan parameter x dan y dan juga sebuah constructor. dan melalukan perulangan dimana nilai dari variabel kpk adalah nilai dari x dan melakukan perulangan jika nilai kpk modulus y tidak sama dengan 0 maka nilai kpk = nilai kpk + x dan mereturn nilai kpk. selanjutnya saya memanggil method hasil dengan mencetak kpk dari 20 dan 60
-- class FPB
-  ![](../screenshots/classFpb.png)
-  pada class fpb sama seperti class kpk saya juga embuat 2 buah variabel paramert yaitu x dan y dan melakuakan pengecekan jika x = o maka akan mereturn nilai y dan jika y = 0 maka akan mereturn nilain x dan jika selain dari itu akan mereturn fpb dengan parameter y dan x modulus y. selanjutnya saya memanggil method hasil dengan mencetak fpb dengan parameter 20 dan 60
-- class main
-  ![](../screenshots/classMainTask02.png)
+  ![](../screenshots/Upgrade%20Remedial/classMatematika.png)
+  Pada class mmatematika saya membuat sebuah method hasil dengan value kosong
 
-  pada class main saya membuat variabel cek dengan tipe bolean dan melakukan perulangan untuk sebuah menu yang dimana jika pengguna menginputkan angka 1 maka akan membuat sebuah objek operator dari class FPB dan mencetak method hasil dari objek operator. selanjutnya jika pengguna menginputkan angka 2 maka akan membuat sebuah objek operator dari class KPK dan mencetak method hasil dari objek operator dan jika pengguna menginputkan angka 3 maka akan keluar dari program dan inputan selain dari itu maka akan mencetak "masukan data dengan benar".
+  ***
+
+- clss KPK
+  ![](../screenshots/Upgrade%20Remedial/classKpk.png)
+  Pada class kpk pertama tama saya melakukan import class matermatika dan mengimplement class tersebut. Kemudian saya membuat 2 buah variabel x dan y dengan tipe data int. Kemudian saya membuat sebuah constructor dari class KPK dengan parameter x dan y dari class tersebut dan memanggil method hasil dari class matematika dengan cara override yang didalam nya saya melakukan perulangan dengan menginisialisasi nilai variabel x kedalam variabel hasil lalu meng-increment dari variabel hasil tersebut kemudian melakukan pengkondisian dengan if dimana jika sisa hasil bagi antara vaariabel hasil dan x sama dengan 0 dan sisa hasil bagi antara varabel hasail dan y sama dengan 0 maka akan menampilkan nilai dari hasil atau nilai dari kpk kemudian melakukan break.
+
+  ***
+
+- class FPB
+  ![](../screenshots/Upgrade%20Remedial/classFpb.png)
+  Sama seperti class KPK Pada class FPB juga pertama tama saya melakukan import class matermatika dan mengimplement class tersebut. Kemudian saya membuat 2 buah variabel x dan y dengan tipe data int. Kemudian saya membuat sebuah constructor dari class FPB dengan parameter x dan y dari class tersebut dan memanggil method hasil dari class matematika dengan cara override yang didalam nya saya melakukan perulangan dengan menginisialisasi nilai variabel x kedalam variabel hasil dengan kondisi nilai dari variabel hasil lebih besar dari 0 dan melakuakan decrement pada variabel hasil dimana didalam perulangan tersebut saya membuat sebuah kondisi jika sisa hasil bagi antara variabel x dan variabel hasil sama dengan 0 dan sisa hasil bagi variabel y dengan variabel hasil sama dengan 0 maka akan mencetak dari variabel hasil dimana itu adala nilai dari FBP variabel x dan y selanjutnya menghentikan perulangan dengan brak.
+
+  ***
+
+- class main
+  ![](../screenshots/Upgrade%20Remedial/classMain2.png)
+
+  Pada class main pertama tama saya mengimport class matematika, fpb dan kpk lalu membuat sebuah list dari class Matematika dengan nama matematika kemudian menambahkan nilai kpk kedalam list dengan command add dengan memanggil class KPk dengan variabel x = 8 dan y = 5, selanjutnya menambahkan nilai fpb kedalam list dengan command add dengan memanggil class FPb dengan variabel x = 18 dan y = 26 selanjutnya adalah melakukan perulangan nilai dari list matematika dengan nama operator yang dimana variabel operator tersebut memanggil method hasil.
+
+  ***
 
 - hasil
   berikut hasil dari program diatas
-  ![](../screenshots/hasilKpkFpb.png)
+  ![](../screenshots/Upgrade%20Remedial/hasilTask02.png)
 
 ##Latihan
 ###Latihan 01 (Hewan)
