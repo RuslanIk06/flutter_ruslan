@@ -212,3 +212,8 @@ return MaterialApp(
 ```
 
 Pada main page saya membuat sebuah appBar yang berada di tengan dan sebuah image sebagai logo di sebelah kiri dengan leading dan untuk body nya saya menggunakan list view dengan childern imagePage, ContactPage dan form page dan sebuah elevated button.
+
+### - Hasil
+
+![](../weekly1/screenshots/ss01.png)
+![](../weekly1/screenshots/ss02.png)
