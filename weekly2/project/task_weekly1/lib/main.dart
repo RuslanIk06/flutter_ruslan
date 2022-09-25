@@ -41,7 +41,7 @@ class _MyAppState extends State<MyApp> {
             ),
           ),
         ),
-        endDrawer: DrawerPage(),
+        endDrawer: const DrawerPage(),
         body: Center(
           child: ListView(
             children: [

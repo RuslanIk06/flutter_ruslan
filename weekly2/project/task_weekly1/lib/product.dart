@@ -23,13 +23,13 @@ class _ProductPageState extends State<ProductPage> {
                 height: 100,
                 child: Row(
                   children: [
-                    Image(
+                    const Image(
                       image: AssetImage("assets/images/shoes01.png"),
                     ),
                     SizedBox(width: 10),
                     Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: [
+                      children: const [
                         Text(
                           "Nike Free Metcon 3",
                           style: TextStyle(
@@ -52,13 +52,13 @@ class _ProductPageState extends State<ProductPage> {
                 height: 100,
                 child: Row(
                   children: [
-                    Image(
+                    const Image(
                       image: AssetImage("assets/images/shoes02.png"),
                     ),
                     SizedBox(width: 10),
                     Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: [
+                      children: const [
                         Text(
                           "Nike Free Metcon 3",
                           style: TextStyle(
@@ -81,13 +81,13 @@ class _ProductPageState extends State<ProductPage> {
                 height: 100,
                 child: Row(
                   children: [
-                    Image(
+                    const Image(
                       image: AssetImage("assets/images/shoes03.png"),
                     ),
                     SizedBox(width: 10),
                     Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: [
+                      children: const [
                         Text(
                           "Nike Air Max 270",
                           style: TextStyle(
@@ -110,13 +110,13 @@ class _ProductPageState extends State<ProductPage> {
                 height: 100,
                 child: Row(
                   children: [
-                    Image(
+                    const Image(
                       image: AssetImage("assets/images/shoes03.png"),
                     ),
-                    SizedBox(width: 10),
+                    const SizedBox(width: 10),
                     Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: [
+                      children: const [
                         Text(
                           "Nike Air Max 270",
                           style: TextStyle(
@@ -139,13 +139,13 @@ class _ProductPageState extends State<ProductPage> {
                 height: 100,
                 child: Row(
                   children: [
-                    Image(
+                    const Image(
                       image: AssetImage("assets/images/shoes03.png"),
                     ),
-                    SizedBox(width: 10),
+                    const SizedBox(width: 10),
                     Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: [
+                      children: const [
                         Text(
                           "Nike React Miller",
                           style: TextStyle(
