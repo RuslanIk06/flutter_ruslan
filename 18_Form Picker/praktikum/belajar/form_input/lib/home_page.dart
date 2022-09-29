@@ -13,6 +13,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   DateTime _dueDate = DateTime.now();
+  DateTime _dueDate2 = DateTime.now();
   final currentDate = DateTime.now();
   Color _currentColor = Colors.orange;
 
@@ -46,7 +47,7 @@ class _HomePageState extends State<HomePage> {
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Text("Date"),
+            Text("Date 1"),
             TextButton(
                 onPressed: () async {
                   final selectDate = await showDatePicker(
@@ -67,6 +68,34 @@ class _HomePageState extends State<HomePage> {
         ),
         Text(
           DateFormat("dd-MM-yyyy").format(_dueDate),
+        ),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Text("Date 2"),
+            TextButton(
+              onPressed: () async {
+                final selectDate2 = await showDatePicker(
+                  context: context,
+                  initialDate: _dueDate,
+                  firstDate: _dueDate,
+                  lastDate: DateTime(currentDate.year + 5),
+                );
+
+                setState(
+                  () {
+                    if (selectDate2 != null) {
+                      _dueDate2 = selectDate2;
+                    }
+                  },
+                );
+              },
+              child: Text("Select"),
+            )
+          ],
+        ),
+        Text(
+          DateFormat("dd-MM-yyyy").format(_dueDate2),
         ),
       ],
     );
