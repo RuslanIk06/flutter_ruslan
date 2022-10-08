@@ -7,23 +7,23 @@ class HomePage extends StatelessWidget {
   final chat = <Message>[
     Message(
         profile: "assets/images/factory.png",
-        nama: 'Tresnna Apriliana',
-        pesan: 'Besok main yaa!',
+        nama: 'Jingga',
+        pesan: 'Are u ok ?',
         waktu: '9:43 PM'),
     Message(
         profile: "assets/images/image01.png",
         nama: 'Arya',
-        pesan: 'Ngga tau apa',
+        pesan: 'Traning ?',
         waktu: '6.31 PM'),
     Message(
         profile: "assets/images/image02.png",
-        nama: 'Putra Eka',
+        nama: 'Dewa',
         pesan: 'Tunggu ya, nanti dikabarin',
         waktu: '4:04 PM'),
     Message(
         profile: "assets/images/image02.png",
-        nama: 'Muhammad Ghifari',
-        pesan: 'Ok, jam 9 otw',
+        nama: 'Cinta',
+        pesan: 'Otw',
         waktu: '8:35 AM'),
     Message(
         profile: "assets/images/image03.png",
@@ -32,38 +32,38 @@ class HomePage extends StatelessWidget {
         waktu: 'Yesterday'),
     Message(
         profile: "assets/images/image04.png",
-        nama: 'Inggit',
-        pesan: 'Iya ka, nanti telfon inggit ya',
+        nama: 'Isna',
+        pesan: 'Iya ka, nanti telfon Isna ya',
         waktu: 'Yesterday'),
     Message(
         profile: "assets/images/image05.png",
-        nama: 'Bagaskara Aria',
-        pesan: 'Hahahahahaha, ngakak',
+        nama: 'Maul',
+        pesan: 'Hahahahahaha..',
         waktu: 'Fri'),
     Message(
         profile: "assets/images/image06.png",
-        nama: 'Mudho Ryan',
-        pesan: 'Film apa yaa yang bagus?',
+        nama: 'Jaka',
+        pesan: 'Tidak',
         waktu: 'Thu'),
     Message(
         profile: "assets/images/image07.png",
-        nama: 'Indira Andreany',
+        nama: 'Maulana',
         pesan: 'ok gapapa lanjutt',
         waktu: 'Thu'),
     Message(
         profile: "assets/images/image08.png",
-        nama: 'Angel Leory',
+        nama: 'Bardin',
         pesan: 'see you',
         waktu: 'Wed'),
     Message(
         profile: "assets/images/image09.png",
-        nama: 'Zhein Arifin',
-        pesan: 'Pasti bisa',
+        nama: 'bahar',
+        pesan: 'Pasti',
         waktu: 'Tue'),
     Message(
         profile: "assets/images/image10.png",
-        nama: 'Dimas Prayoga',
-        pesan: 'Semangatt',
+        nama: 'Jayadi',
+        pesan: 'Why ? ',
         waktu: 'Tue'),
   ];
 
