@@ -1,0 +1,96 @@
+import 'package:contact_apps/models/contact_person.dart';
+import 'package:contact_apps/Pages/add_contact.dart';
+import 'package:contact_apps/models/providers/contact_provider.dart';
+import 'package:contact_apps/pages/detail_contact_page.dart';
+import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+
+class ContactItem extends StatelessWidget {
+  final ContactPerson contactPerson;
+  ContactItem(this.contactPerson, {super.key});
+
+  var dataKontak = {'nama': '', 'phone': ''};
+
+  ContactPerson? editContact;
+
+  @override
+  Widget build(BuildContext context) {
+    void _onSubmit() {
+      final kontakDetail = ContactPerson(
+        nama: dataKontak['nama']!,
+        phone: dataKontak['phone']!,
+      );
+
+      Provider.of<ContactProvider>(context, listen: false)
+          .detailKontak(kontakDetail);
+    }
+
+    return InkWell(
+      child: ListTile(
+        leading: CircleAvatar(
+          child: Text(contactPerson.nama[0]),
+        ),
+        title: Text(contactPerson.nama),
+        subtitle: Text(contactPerson.phone),
+      ),
+      onTap: () {
+        _onSubmit();
+
+        Navigator.pushNamed(context, DetailPage.routeName);
+      },
+      onLongPress: () {
+        showDialog(
+          context: context,
+          builder: (context) {
+            return AlertDialog(
+              title: const Text("Delete Contact"),
+              content: Text("Delete Contact With Name ${contactPerson.nama}"),
+              actions: [
+                TextButton(
+                  onPressed: () {
+                    Provider.of<ContactProvider>(context, listen: false)
+                        .hapusKontak(contactPerson.id);
+                    Navigator.pop(context);
+                  },
+                  child: const Text("Yes"),
+                ),
+                TextButton(
+                    onPressed: () {
+                      Navigator.pop(context);
+                    },
+                    child: const Text("No"))
+              ],
+            );
+          },
+        );
+      },
+      onDoubleTap: () {
+        showDialog(
+          context: context,
+          builder: (context) {
+            return AlertDialog(
+              title: const Text("Update Contact"),
+              content: Text("Update Contact With Name ${contactPerson.nama}"),
+              actions: [
+                TextButton(
+                  onPressed: () async {
+                    await Navigator.of(context).pushNamed(
+                        AddContactPage.routeName,
+                        arguments: contactPerson);
+                    Navigator.pop(context);
+                  },
+                  child: const Text("Yes"),
+                ),
+                TextButton(
+                    onPressed: () {
+                      Navigator.pop(context);
+                    },
+                    child: const Text("No"))
+              ],
+            );
+          },
+        );
+      },
+    );
+  }
+}
