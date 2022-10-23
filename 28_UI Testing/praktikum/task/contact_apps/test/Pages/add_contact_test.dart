@@ -1,18 +1,3 @@
-# (28) UI Testing
-
-## Data Diri
-
-Nomor Urut : 1_023FLB_52
-Nama : Ruslan
-
-## Task 01
-
-- Widget Tree
-  ![](../screenshots/widgetTreeCreateContact.jpg)
-  ![](../screenshots/widgetTreeHomepage.jpg)
-- Add Contact Page (add_contact.dart)
-
-```
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:contact_apps/Pages/add_contact.dart';
@@ -98,10 +83,3 @@ void main() {
     );
   });
 }
-```
-
-Pada script test diatas pertama tama saya membuat group untuk task no 1 dan no 2. untuk yang no 1, pertama tama saya membuat script test untuk appbar dengan find.text('Create New Contact') dengan expect findsOneWidget. selanjutnya saya membuat script test untuk melakukan testing pada body dengane membuats sebuah variabel testBody yang berisi ancestor dengan mencari SingleChildScrollView didalam widget Padding, selanjutnya melakukan testing untuk widget colum dengan membuat sebuah variabel testColumn yang berisi ancestor dengan mencari widget Column didalam widget Form, selanjutnya saya melakuakn testing widget TestWidgetTextFormField dan TestWidgetElevatedButton didalam widget column. dan untuk no 2 kurang lebih sama dengan task 01 namun kodisi saya buat salah dengan expect findsNothing.
-
-- Hasil
-  Berikut hasil test dari project contact_apps dengna mengunakan provider.
-  ![](../screenshots/hasil.png)
